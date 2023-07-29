@@ -2,6 +2,7 @@ import 'package:cupertino_icons/cupertino_icons.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:insta_clone/body.dart';
 
 void main() {
   runApp(const InstaCloneApp());
@@ -50,7 +51,7 @@ class InstaCloneHome extends StatelessWidget {
           ),
         ],
       ),
-      body: InstaBody(),
+      body: const InstaBody(),
     );
   }
 }
